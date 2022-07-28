@@ -1,0 +1,62 @@
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <header class="header-section">
+        <div class="container-fluid mx-5">
+            <ul class="navbar-nav d-inline-flex flex-row float-left ml-0">
+                <li><a href="https://wa.me/972504815552" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://www.facebook.com/Shabazi-Circus-%D7%A7%D7%A8%D7%A7%D7%A1-%D7%A9%D7%91%D7%96%D7%99-145634068789722" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="https://ul.waze.com/ul?place=ChIJj5CN7rkPHRURmAzkneL-zo4&ll=32.46191700%2C35.00673000&navigate=yes&utm_medium=lm_share_location" target="_blank"><i class="fab fa-waze"></i></a></li>
+            </ul>
+            <div class="logo float-right" style="padding-top: 10px; padding-bottom: 15px;">
+                <a href="./index.html">
+                    <img src="img/logo.png" alt="" style="height: 110px;">
+                </a>
+            </div>
+            <div class="nav-menu" style="margin-top: 12px;">
+                <nav class="mainmenu mobile-menu" id="navbar">
+                    <ul class="mr-auto nav-ul">
+                        <li class="nav-item"><a href="./index.html">דף הבית</a></li>
+                        <li class="nav-item"><a href="./about-us.html">על הקרקס</a></li>
+                        <li class="nav-item"><a href="https://landing.digitalguru.co.il/circus/" target="_blank"><span>מסלול מקצועי</span></a></li>
+                        <li class="nav-item"><a href="./gallery.html">גלריה</a></li>
+                        <li class="nav-item"><a href="./contact.html">צרו קשר</a></li>
+                        <li class="nav-item"><a href="http://rotem.menashe.co.il/%D7%A7%D7%A8%D7%A7%D7%A1_%D7%A9%D7%91%D7%96%D7%99" target="_blank">הרשמה לחוגים</a></li>
+                        <!-- <li class="active"><a href="./index.html">דף הבית</a></li> -->
+                    </ul>
+                    <!-- <a href="#">
+                        <img src="img/logo.png" alt="" style="height: 110px;">
+                    </a> -->
+                </nav>
+            </div>
+            <!-- <div class="nav-menu float-left" style="margin-top: 12px;">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                    </ul>
+                </nav>
+            </div> -->
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <script>
+var pathname = window.location.pathname,
+pages = ['/index.html', '/about-us.html', null, '/gallery.html', '/contact.html',null];
+
+$('.nav-item').each(function(i) {
+ if (pathname.includes(pages[i])) this.classList.add("active");
+ else if (this.className.includes('active')) this.classList.remove("active");
+});
+    </script>
+     <script src="js/jquery-3.3.1.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/jquery.countdown.min.js"></script>
+     <script src="js/jquery.slicknav.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/main.js"></script>
